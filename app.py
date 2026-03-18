@@ -14,7 +14,7 @@ from src.stress_test import run_stress_test, plot_stress_test
 st.set_page_config(
     page_title="Financial Risk Analyzer",
     page_icon="💼",
-    layout="wide"
+    layout="wide" ,
     initial_sidebar_state="auto" #sidebar detects if it should be opened or closed based on screen size
 )
 
