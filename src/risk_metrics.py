@@ -16,7 +16,7 @@ def calculate_volatility(log_returns):
 #define function to calculate VaR (value at risk) with 95% confidence using historical data
 def calculate_var_95(log_returns, weights):
     portfolio_returns = (log_returns * weights).sum(axis=1) #sum for total return
-    var = np.percentile(portfolio_returns, 5) #5 represents 5th percentile (worst 5%), drops NaN values
+    var = np.percentile(portfolio_returns.dropna(), 5) #5 represents 5th percentile (worst 5%), drops NaN values
     return var
 
 #define function to calculate sharpe (portfolio return - risk free rate) / volatility
