@@ -1,5 +1,5 @@
 # Financial Risk Modeling & Monte Carlo Simulation Engine
-
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Streamlit-red)](https://ryanchen-financial-risk-model.streamlit.app/)
 ### Background
 As a mechanical engineer I use simulation and probabilistic modeling to assess structural risk. This project applies the same thinking to financial portfolios. Using Monte Carlo simulation and statistical risk metrics to quantify downside exposure the way professional risk teams do at major financial institutions.
 
