@@ -74,7 +74,7 @@ python3 main.py
 - **Stress Test** - Simulates given portfolio during different economic crises
 
 ### What's Next?
-- Streamlit dashboard for user inputs
+- Streamlit dashboard upgrades for user inputs
 - CVaR (Conditional Value at Risk)
 - Portfolio optimization
 - Additional crisis periods
